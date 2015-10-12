@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Search api by theoldnewbie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body>
+    <style>
+    img {
+      margin: 7px 7px 7px 0; / Отступы вокруг картинки /
+      border: 1px solid #000;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      width: 400px;
+      height: 250px;
+      float: left;
+    }
+    li {
+      overflow: hidden;
+    }
+    
+    </style>
+    <div class="container">
+      <h1 class="project-name">Введите данные:</h1>
+    </div>
+      
+
+    <div class="container">
+      <form id="search_form">
+        <input type="text" name="search" placeholder="leeds" id="search" >
+        <button class="btn btn-success"> Поиск </button>
+      </form>
+    </div>
+
+    <div class="container">
+      <ul id="result">
+      </ul>
+      
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/nestoria.js"></script>
+  
+  </body>
+</html>
